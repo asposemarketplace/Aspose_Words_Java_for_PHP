@@ -7,7 +7,7 @@ For the configuration/setup of PHP/Java Bridge, please see:
 
 http://php-java-bridge.sourceforge.net/pjb/index.php
 
-To download Aspose.Words Java API to be used with these examples through PHP/Java Bridge
+To download Aspose.Words for Java API to be used with these examples through PHP/Java Bridge
 Please navigate to:
 
 http://www.aspose.com/community/files/72/java-components/aspose.words-for-java/
