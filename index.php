@@ -44,5 +44,20 @@ require_once("../java/Java.inc");
 //require_once('src/programmingwithdocuments/workingwithimages/compressimages/php/CompressImages.php');
 //CompressImages::main();
 
-require_once('src/programmingwithdocuments/joiningandappending/php/AppendDocument.php');
-AppendDocument::main();
+//require_once('src/programmingwithdocuments/joiningandappending/php/AppendDocument.php');
+//AppendDocument::main();
+
+//require_once('src/programmingwithdocuments/workingwithtables/php/AutoFitTables.php');
+//AutoFitTables::main();
+
+//require_once('src/programmingwithdocuments/workingwithbookmarks/copybookmarkedtext/php/CopyBookmarkedText.php');
+//CopyBookmarkedText::main();
+
+//require_once('src/programmingwithdocuments/workingwithbookmarks/untanglerowbookmarks/php/UntangleRowBookmarks.php');
+//UntangleRowBookmarks::main();
+
+require_once('src/programmingwithdocuments/workingwithdocument/removebreaks/php/RemoveBreaks.php');
+RemoveBreaks::main();
+
+
+
