@@ -102,30 +102,27 @@ class ProcessComments {
         $nodeType = Java("com.aspose.words.NodeType");
 
         $comments = $doc->getChildNodes($nodeType->COMMENT, true);
+
         $comments_count = $comments->getCount();
 
         // Look through all comments and remove those written by the authorName author.
         $i = $comments_count;
 
+        $i = $i - 1;
+
         while($i >= 0) {
 
             $comment = $comments->get($i);
-            echo "<pre>"; echo java_inspect($comment); exit;
             //echo "<PRE>"; echo java_inspect($comment); exit;
             if(isset($authorName)){
-                echo $comment->getAuthor(); exit;
-                echo $comment->getAuthor()->equals(java_values($authorName)); exit;
-                die("KKKKKK");
                 if (java_values($comment->getAuthor()->equals($authorName)))
                     $comment->remove();
             } else {
-                die("KK");
                 $comment->remove();
             }
 
             $i--;
         }
-        die("CONTROL");
 
     }
 
