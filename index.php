@@ -56,8 +56,25 @@ require_once("../java/Java.inc");
 //require_once('src/programmingwithdocuments/workingwithbookmarks/untanglerowbookmarks/php/UntangleRowBookmarks.php');
 //UntangleRowBookmarks::main();
 
-require_once('src/programmingwithdocuments/workingwithdocument/removebreaks/php/RemoveBreaks.php');
-RemoveBreaks::main();
+//require_once('src/programmingwithdocuments/workingwithdocument/removebreaks/php/RemoveBreaks.php');
+//RemoveBreaks::main();
+
+
+//require_once('src/programmingwithdocuments/workingwithdocument/extractcontent/php/ExtractContent.php');
+//ExtractContent::main();
+
+//require_once('src/programmingwithdocuments/workingwithfields/replacefieldswithstatictext/php/ReplaceFieldsWithStaticText.php');
+//ReplaceFieldsWithStaticText::main();
+
+//require_once('src/programmingwithdocuments/workingwithfields/insertnestedfields/php/InsertNestedFields.php');
+//InsertNestedFields::main();
+
+//require_once('src/programmingwithdocuments/workingwithfields/removefield/php/RemoveField.php');
+//RemoveField::main();
+
+require_once('src/programmingwithdocuments/workingwithcomments/processcomments/php/ProcessComments.php');
+ProcessComments::main();
+
 
 
 

@@ -21,7 +21,7 @@ class RemoveBreaks {
         // In Aspose.Words section breaks are represented as separate Section nodes in the document.
         // To remove these separate sections the sections are combined.
         RemoveBreaks::removePageBreaks($doc);
-        
+
         RemoveBreaks::removeSectionBreaks($doc);
 
         // Save the document.
