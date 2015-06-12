@@ -72,8 +72,23 @@ require_once("../java/Java.inc");
 //require_once('src/programmingwithdocuments/workingwithfields/removefield/php/RemoveField.php');
 //RemoveField::main();
 
-require_once('src/programmingwithdocuments/workingwithcomments/processcomments/php/ProcessComments.php');
-ProcessComments::main();
+//require_once('src/programmingwithdocuments/workingwithcomments/processcomments/php/ProcessComments.php');
+//ProcessComments::main();
+
+
+//require_once('src/programmingwithdocuments/workingwithstyles/extractcontentbasedonstyles/php/ExtractContentBasedOnStyles.php');
+//ExtractContentBasedOnStyles::main();
+
+require_once('src/mailmergeandreporting/mailmergeformfields/php/MailMergeFormFields.php');
+MailMergeFormFields::main();
+
+
+
+
+
+
+
+
 
 
 
